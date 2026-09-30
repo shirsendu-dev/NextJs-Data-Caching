@@ -1,0 +1,145 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Wireless Headphones",
+      "price": 59.99,
+      "category": "Electronics",
+      "brand": "SoundMax",
+      "stock": 18,
+      "rating": 4.5,
+      "image": "https://placehold.co/600x400",
+      "description": "Experience clear and immersive sound with these comfortable wireless headphones. They feature soft ear cushions, reliable Bluetooth connectivity, and long battery life for everyday music, calls, and entertainment."
+    },
+    {
+      "id": 2,
+      "name": "Smart Watch",
+      "price": 89.99,
+      "category": "Electronics",
+      "brand": "TechFit",
+      "stock": 12,
+      "rating": 4.3,
+      "image": "https://placehold.co/600x400",
+      "description": "Stay connected and track your daily activity with this lightweight smart watch. It includes fitness tracking, heart-rate monitoring, notifications, sleep tracking, and multiple sports modes."
+    },
+    {
+      "id": 3,
+      "name": "Running Shoes",
+      "price": 74.5,
+      "category": "Fashion",
+      "brand": "RunPro",
+      "stock": 25,
+      "rating": 4.7,
+      "image": "https://placehold.co/600x400",
+      "description": "These breathable running shoes are designed for comfort, flexibility, and everyday performance. The cushioned sole provides extra support for running, walking, workouts, and daily use."
+    },
+    {
+      "id": 4,
+      "name": "Gaming Mouse",
+      "price": 39.99,
+      "category": "Accessories",
+      "brand": "GameCore",
+      "stock": 30,
+      "rating": 4.6,
+      "image": "https://placehold.co/600x400",
+      "description": "Improve your gaming setup with this ergonomic gaming mouse featuring adjustable DPI, programmable buttons, precise tracking, and a comfortable grip for long gaming sessions."
+    },
+    {
+      "id": 5,
+      "name": "Laptop Backpack",
+      "price": 45,
+      "category": "Accessories",
+      "brand": "UrbanPack",
+      "stock": 15,
+      "rating": 4.4,
+      "image": "https://placehold.co/600x400",
+      "description": "Carry your laptop and daily essentials safely with this durable laptop backpack. It includes padded laptop protection, multiple storage compartments, adjustable straps, and a lightweight design."
+    },
+    {
+      "id": 6,
+      "name": "Bluetooth Speaker",
+      "price": 49.99,
+      "category": "Electronics",
+      "brand": "BeatBox",
+      "stock": 20,
+      "rating": 4.2,
+      "image": "https://placehold.co/600x400",
+      "description": "Enjoy powerful wireless audio anywhere with this portable Bluetooth speaker. It offers clear sound, strong bass, water resistance, long battery life, and easy connectivity with phones and laptops."
+    }
+  ],
+
+  "books": [
+    {
+      "id": 1,
+      "title": "The Silent Forest",
+      "author": "Emily Carter",
+      "price": 14.99,
+      "category": "Mystery",
+      "pages": 320,
+      "rating": 4.5,
+      "stock": 16,
+      "image": "https://placehold.co/600x400",
+      "description": "A gripping mystery about a journalist who travels to a remote town to investigate a decades-old disappearance and uncovers secrets hidden deep within the surrounding forest."
+    },
+    {
+      "id": 2,
+      "title": "Beyond the Stars",
+      "author": "Daniel Brooks",
+      "price": 18.5,
+      "category": "Science Fiction",
+      "pages": 410,
+      "rating": 4.7,
+      "stock": 11,
+      "image": "https://placehold.co/600x400",
+      "description": "A science-fiction adventure following a group of explorers who leave Earth in search of a habitable planet and discover something far more mysterious than they expected."
+    },
+    {
+      "id": 3,
+      "title": "Mastering JavaScript",
+      "author": "Alex Morgan",
+      "price": 29.99,
+      "category": "Programming",
+      "pages": 560,
+      "rating": 4.8,
+      "stock": 20,
+      "image": "https://placehold.co/600x400",
+      "description": "A practical guide to modern JavaScript covering variables, functions, arrays, objects, asynchronous programming, DOM manipulation, ES6 features, and real-world development techniques."
+    },
+    {
+      "id": 4,
+      "title": "The Art of Productivity",
+      "author": "Sophia Bennett",
+      "price": 16.99,
+      "category": "Self Development",
+      "pages": 275,
+      "rating": 4.4,
+      "stock": 24,
+      "image": "https://placehold.co/600x400",
+      "description": "A straightforward guide to improving productivity, managing time effectively, building useful habits, eliminating distractions, and staying focused on meaningful goals."
+    },
+    {
+      "id": 5,
+      "title": "History of Tomorrow",
+      "author": "Michael Turner",
+      "price": 21.99,
+      "category": "History",
+      "pages": 390,
+      "rating": 4.3,
+      "stock": 9,
+      "image": "https://placehold.co/600x400",
+      "description": "An engaging exploration of major historical developments and how technological, economic, and social changes from the past may continue to influence humanity's future."
+    },
+    {
+      "id": 6,
+      "title": "Learning Next.js",
+      "author": "Ryan Wilson",
+      "price": 34.99,
+      "category": "Programming",
+      "pages": 480,
+      "rating": 4.9,
+      "stock": 14,
+      "image": "https://placehold.co/600x400",
+      "description": "A beginner-friendly guide to building modern web applications with Next.js, covering routing, layouts, Server and Client Components, data fetching, caching, dynamic routes, and deployment."
+    }
+  ]
+}
