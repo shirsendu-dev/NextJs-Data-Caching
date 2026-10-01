@@ -26,7 +26,7 @@ import Link from "next/link";
 
 const PostsPage = async () => {
 
-    const res = await fetch('https://jsonplaceholder.typicode.com/posts?_limit=10');
+    const res = await fetch('https://jsonplaceholder.typicode.com/posts');
     const posts = await res.json();
 
     // const posts = await postsPromise();
@@ -37,9 +37,9 @@ const PostsPage = async () => {
         <div className="py-10">
             <h2 className="text-3xl mb-10 text-center">Posts</h2>
 
-            <div className="grid grid-cols-5 gap-4 container mx-auto">
+            <div className="grid grid-cols-3 gap-4 container mx-auto">
                 {
-                    posts.map(post =>
+                    posts.slice(0,6).map(post =>
                         <div key={post.title} className="card bg-primary text-primary-content">
                             <div className="card-body">
                                 <h2 className="card-title text-2xl">{post.title}</h2>

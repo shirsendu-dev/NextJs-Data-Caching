@@ -1,9 +1,18 @@
+'use client';
 import Image from "next/image";
 import Link from "next/link";
+import { use } from "react";
+import { UserContext } from "../contexts/UserContext";
 
 const BookCard = ({ book }) => {
 
     const {id, title, author, price, image, description, category, rating} = book;
+
+    const user = use(UserContext);
+
+    console.log(`From bookcard context`, user);
+    
+
     return (
         <div className="card bg-base-100 w-full shadow-sm">
             <figure>
